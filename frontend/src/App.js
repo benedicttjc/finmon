@@ -51,7 +51,6 @@ function App() {
       {
         showLoginSection?
         <div className="App">
-          <h1>FinMon</h1>
           <input type="text" placeholder="username" onChange={(e)=>{setUsername(e.target.value)}}></input>
           <input type="password" placeholder="password" onChange={(e)=>{setPassword(e.target.value)}}></input>
           <button onClick={login}>login</button>
